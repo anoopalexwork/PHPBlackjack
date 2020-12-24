@@ -182,7 +182,7 @@ if (getTotal($dhand)==21) {array_push($msg, "Dealer has Blackjack!"); $bust=TRUE
 //echo "<br>Val is ".getTotal($hide)."<br>";
 tableArray($phand,[]);
 echo "<br><div id=\"lt\"> You have ".getTotal($phand)."</div>";
-if (getTotal($phand)==21) {array_push($msg, "You have Blackjack!"); $bj= TRUE; }
+if (getTotal($phand)==21) {array_push($msg, "You got Blackjack!"); $bj= TRUE; }
 
 
 ?>
