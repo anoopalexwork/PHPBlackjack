@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/bj2.css">
+    <title> Blackjack login</title>
+
+</head>
+<body>
+    <header><H1>Blackjack in Javascript</H1></header>
+    <form id="gate" action="verify.php" method="POST" autocomplete="off">
+        <div id="login">
+            <table  id="form">
+                
+                <tr class="dby"><td>Name:</td><td><input id="n" type="text" name="n" ></td></tr>
+                <tr><td>Login Password:</td><td ><input type="password" name="p1"></td></tr>
+                <tr><td>Register Password:</td><td><input  type="password" name="p2"></td></tr>
+                <tr><td></td><td><button id="l" class="b" name="type" form="" value="log" onclick="checkErrs(this.id)">Login</button></td>
+                    <td><button class="b" id="r" name="type" value="Register" onclick="checkErrs(this.id)">Register</button></td></tr>
+            </table>
+            
+        </div>
+            
+    </form>
+    
+        
+    </div>
+    
+    <div id="errs"></div>
+
+
+    <footer>For testing only</footer>
+<script src="login.js">
+
+ 
+</script>
+
+
+</body>
+</html>
