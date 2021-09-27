@@ -1,0 +1,9 @@
+tr {width: 300px; height:auto;}
+td {height:100px; font-size: 28pt; width: auto;}
+
+<tr><td>Name:</td><td><input id="n" type="text" name="n"></td></tr>
+            <tr><td>Login Password:</td><td><input id="p1" type="password" name="p1"></td></tr>
+            <tr><td>Register Password:</td><td><input id="p2" type="password" name="p2"></td></tr>
+            <tr><td></td>
+                <td><input id="b" type="button" name="type" value="Login"></td>
+                <td><input id="b" type="button" name="type" value="Register"></td></tr>
